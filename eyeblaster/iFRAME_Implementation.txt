@@ -1,0 +1,7 @@
+To serve eyeblasters through an I-Frame, you need to save the attached HTML file (addineyeV2.html) in a sub directory called "eyeblaster" within your site. For example: if the site is www.---.com , the file will be located at: www.---.com/eyeblaster/addineyeV2.html . Please note that this information is Eyeblaster proprietary information and should not be communicated without Eyeblaster’s consent.
+
+If you need further information, this is elaborated on page 10 in the webmasters guide which I have attached.
+
+Let me know if you have any questions,
+
+Thanks!

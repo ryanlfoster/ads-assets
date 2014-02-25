@@ -1,0 +1,31 @@
+<HTML>
+  <HEAD>
+    <META http-equiv="content-type" content="text/html; charset=UTF-8">
+  </HEAD>
+  
+  <BODY STYLE="margin: 0px; overflow: hidden" onLoad="init()">
+
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript" ID="ADTECH_JS">
+		inFIF = true;
+		
+		var __iframeId = window.frameElement.getAttribute("id");
+		var __placementId = __iframeId.substring(__iframeId.lastIndexOf("_") + 1, __iframeId.length);
+		document.write("<TABLE BORDER='0'><TR><TD ID='AdPLaceholder'><SCR" + "IPT TYPE='text/javascript' SRC='" + parent["adtech_adurl_" + __placementId] + "'></SCR" + "IPT>");
+		
+		function init() {
+			var adLoadContainer = document.getElementById("AdPLaceholder");						
+			if (adLoadContainer.childNodes.length > 1 && window.frameElement !== null) {
+				window.frameElement.style.display='block';
+				window.frameElement.style.width  = adLoadContainer.offsetWidth  + "px";
+				window.frameElement.style.height = adLoadContainer.offsetHeight + "px";
+			}
+			//window.setTimeout("init()", 1000);
+		}
+    </SCRIPT>
+
+    <SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+		document.write("</TR></TD></TABLE>");
+    </SCRIPT>
+
+  </BODY>
+</HTML>
